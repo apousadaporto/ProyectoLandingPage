@@ -1,4 +1,50 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/* VARIABLES */
+:root{
+    /* Ancho de Escritorio 2022*/
+    --anchoPantalla: 1366px;
+}
+
+/* HEADER */
+
+/* NAV */
+
+.contenedor{
+    background-color: var(--colorFondo);
+}
+
+main, footer{
+    width: calc(var(--anchoPantalla)/2);
+}
+
+main{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+footer{
+
+}
+
+/* SECTION */
+.banner{
+
+}
+
+.texto{
+
+}
+
+.contacto{
+
+}
+
+/* ASIDE */
+
+/* ARTICLE */
+
+/* FIGURE */
+
 

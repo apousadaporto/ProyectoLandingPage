@@ -1,6 +1,16 @@
 /* CSS TYPOGRAFÍA */
 /* **************************************************************** */
 
-@font-face {
-    
+*, a{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--colorTextoParrafo);
+}
+
+a{
+    color: var(--colorTextoLinks);
+}
+
+.banner__boton, .texto__boton{
+    color: white;
 }
