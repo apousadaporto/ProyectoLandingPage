@@ -8,5 +8,54 @@
     --colorTitulo: #031146;
     --colorTextoParrafo: #636363;
     --colorLinks: #549CDC;
+    --colorDegrBannerIzq: #f9f4e5;
+    --colorDegrBannerDer: #eacef6;
+}
+
+*, a{
+    color: var(--colorTextoParrafo);
+}
+
+.contenedor{
+    background-color: var(--colorFondo);
+}
+
+main{
+    background-color: #fff;
+}
+
+.banner{
+    background-color: #fcf9c3;
+    background-image: linear-gradient(90deg, 
+    var(--colorDegrBannerIzq) 45%, 
+    var(--colorDegrBannerDer) 100%);
+}
+
+.banner__boton, .texto__boton{
+    color: white;
+}
+
+.banner__titulo{
+    color: var(--colorTitulo);
+}
+
+.banner__subtitulo{
+    color: var(--colorTitulo);
+}
+
+.banner__boton{
+    background-color: var(--colorBotonMore);
+}
+
+.texto__cuerpoLink--link{
+    color: var(--colorLinks);
+}
+
+.texto__boton{
+    background-color: var(--colorBotonSteps);
+}
+
+a{
+    color: var(--colorTextoLinks);
 }
 

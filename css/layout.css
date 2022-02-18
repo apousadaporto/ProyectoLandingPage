@@ -10,9 +10,12 @@
 /* HEADER */
 
 /* NAV */
-
 .contenedor{
-    background-color: var(--colorFondo);
+    height: 100vh;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main, footer{
@@ -20,26 +23,51 @@ main, footer{
 }
 
 main{
-    background-color: #fff;
     border-radius: 20px;
+    height: 90%;
+}
+
+/* Zona Banner */
+.banner, .texto, .contacto{
+    padding: 5%;
+}
+
+.banner__subtitulo{
+    margin-bottom: 2rem;
+}
+
+.banner__boton{
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+}
+
+/* Contenido */
+.texto{
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.texto p{
+    margin-bottom: 2rem;
+}
+
+.texto__cuerpoLink--link{
+    text-decoration: underline;
+}
+
+.texto__boton{
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
 }
 
 footer{
-
+    height: 5%;
+    /* Espacio de los laterales */
+    padding: 2% 10%;
+    text-align: center;
 }
 
 /* SECTION */
-.banner{
-
-}
-
-.texto{
-
-}
-
-.contacto{
-
-}
 
 /* ASIDE */
 
