@@ -60,19 +60,35 @@ main{
     padding: 0.8rem 2rem;
 }
 
+img{
+    border-radius: 50%;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.contacto__datos{
+    padding-left: 20px;
+}
+
+.texto__article{
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+li {
+    line-height: 25px;
+}
+
 footer{
     height: 5%;
     /* Espacio de los laterales */
-    padding: 2% 10%;
+    padding: 2%;
     text-align: center;
 }
-
-/* SECTION */
-
-/* ASIDE */
-
-/* ARTICLE */
-
-/* FIGURE */
 
 
